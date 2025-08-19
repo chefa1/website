@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PyTorch Linear Regression Best Practices | TechML Blog</title>
+    <title>PyTorch Lineer Regresyon En İyi Uygulamaları | TechML Blog</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -499,11 +499,11 @@
                 </div>
                 <nav>
                     <ul class="nav-links">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#"><i class="fas fa-book"></i> Tutorials</a></li>
-                        <li><a href="#"><i class="fas fa-code"></i> Code</a></li>
-                        <li><a href="#"><i class="fas fa-chart-line"></i> Research</a></li>
-                        <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+                        <li><a href="#"><i class="fas fa-home"></i> Ana Sayfa</a></li>
+                        <li><a href="#"><i class="fas fa-book"></i> Eğitimler</a></li>
+                        <li><a href="#"><i class="fas fa-code"></i> Kod</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i> Araştırma</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i> İletişim</a></li>
                     </ul>
                 </nav>
             </div>
@@ -514,25 +514,25 @@
         <section class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1>Best Practices for Training Linear Regression Models in PyTorch</h1>
-                    <p class="hero-subtitle">Training linear regression models in PyTorch provides a foundational understanding of machine learning and neural network concepts.</p>
+                    <h1>PyTorch'ta Lineer Regresyon Modellerini Eğitmenin En İyi Uygulamaları</h1>
+                    <p class="hero-subtitle">PyTorch'ta lineer regresyon modellerini eğitmek, makine öğrenmesi ve sinir ağı kavramlarının temel bir anlayışını sağlar.</p>
                     
                     <div class="meta-info">
                         <div class="meta-item">
                             <i class="fas fa-calendar-alt"></i>
-                            <span>January 15, 2024</span>
+                            <span>15 Ocak 2024</span>
                         </div>
                         <div class="meta-item">
                             <i class="fas fa-clock"></i>
-                            <span>8 min read</span>
+                            <span>8 dakika okuma</span>
                         </div>
                         <div class="meta-item">
                             <i class="fas fa-user"></i>
-                            <span>Prof. Dr. Sefa Korkmaz</span>
+                            <span>Dr. Ayşe Yılmaz</span>
                         </div>
                         <div class="meta-item">
                             <i class="fas fa-tags"></i>
-                            <span>PyTorch, Machine Learning</span>
+                            <span>PyTorch, Makine Öğrenmesi</span>
                         </div>
                     </div>
                 </div>
@@ -541,277 +541,156 @@
 
         <div class="container">
             <article class="article">
-                <p>Here are best practices for effectively training linear regression models to achieve optimal performance and accuracy.</p>
+                <p>Optimal performans ve doğruluk elde etmek için lineer regresyon modellerini etkili bir şekilde eğitmenin en iyi uygulamaları burada yer almaktadır.</p>
 
                 <div class="practice-grid">
                     <div class="practice-card">
                         <div class="practice-icon">
                             <i class="fas fa-tachometer-alt"></i>
                         </div>
-                        <h4>Set an Appropriate Learning Rate</h4>
-                        <p>The learning rate is critical in determining how quickly or slowly a model learns.</p>
+                        <h4>Uygun Öğrenme Oranı Belirleme</h4>
+                        <p>Öğrenme oranı, bir modelin ne kadar hızlı veya yavaş öğrendiğini belirlemede kritik öneme sahiptir.</p>
                     </div>
 
                     <div class="practice-card">
                         <div class="practice-icon">
                             <i class="fas fa-balance-scale"></i>
                         </div>
-                        <h4>Data Standardization</h4>
-                        <p>Standardizing input features speeds up training and improves accuracy by preventing issues due to varying feature scales.</p>
+                        <h4>Veri Standardizasyonu</h4>
+                        <p>Giriş özelliklerini standardize etmek, eğitimi hızlandırır ve değişen özellik ölçekleri nedeniyle oluşan sorunları önleyerek doğruluğu artırır.</p>
                     </div>
 
                     <div class="practice-card">
                         <div class="practice-icon">
                             <i class="fas fa-check-double"></i>
                         </div>
-                        <h4>Implement Validation Sets</h4>
-                        <p>Validation sets are essential for monitoring the model's performance and detecting overfitting.</p>
+                        <h4>Doğrulama Setleri Uygulama</h4>
+                        <p>Doğrulama setleri, modelin performansını izlemek ve aşırı öğrenmeyi tespit etmek için gereklidir.</p>
                     </div>
 
                     <div class="practice-card">
                         <div class="practice-icon">
                             <i class="fas fa-cut"></i>
                         </div>
-                        <h4>Gradient Clipping</h4>
-                        <p>Apply gradient clipping to limit the magnitude of gradients and ensure training stability.</p>
+                        <h4>Gradyan Kırpma</h4>
+                        <p>Gradyanların büyüklüğünü sınırlamak ve eğitim kararlılığını sağlamak için gradyan kırpma uygulayın.</p>
                     </div>
 
                     <div class="practice-card">
                         <div class="practice-icon">
                             <i class="fas fa-chart-area"></i>
                         </div>
-                        <h4>Monitor Loss Function</h4>
-                        <p>Monitoring the loss function during training helps diagnose issues and make necessary adjustments.</p>
+                        <h4>Kayıp Fonksiyonunu İzleme</h4>
+                        <p>Eğitim sırasında kayıp fonksiyonunu izlemek, sorunları teşhis etmeye ve gerekli ayarlamaları yapmaya yardımcı olur.</p>
                     </div>
                 </div>
 
-                <h3><i class="fas fa-tachometer-alt"></i> Set an Appropriate Learning Rate</h3>
-                <p>The learning rate is critical in determining how quickly or slowly a model learns.</p>
+                <h3><i class="fas fa-tachometer-alt"></i> Uygun Öğrenme Oranı Belirleme</h3>
+                <p>Öğrenme oranı, bir modelin ne kadar hızlı veya yavaş öğrendiğini belirlemede kritik öneme sahiptir.</p>
                 
                 <ul>
-                    <li><strong>Moderate Learning Rate:</strong> Start with a moderate learning rate (for example, 0.01) to balance convergence speed with stability. A learning rate that's too high may lead to overshooting the optimal solution, whereas a very low rate can result in slow convergence.</li>
-                    <li><strong>Use Learning Rate Schedulers:</strong> Implement learning rate schedulers to adjust the rate dynamically during training, such as decreasing the rate over time for fine-tuning or using cyclic learning rates to overcome local minima.</li>
+                    <li><strong>Orta Düzey Öğrenme Oranı:</strong> Yakınsama hızı ile kararlılık arasında denge kurmak için orta düzey bir öğrenme oranıyla (örneğin 0.01) başlayın. Çok yüksek bir öğrenme oranı optimal çözümü aşmaya yol açabilirken, çok düşük bir oran yavaş yakınsama ile sonuçlanabilir.</li>
+                    <li><strong>Öğrenme Oranı Planlayıcıları Kullanın:</strong> İnce ayar için zamanla oranı azaltmak veya yerel minimumları aşmak için döngüsel öğrenme oranlarını kullanmak gibi, eğitim sırasında oranı dinamik olarak ayarlamak için öğrenme oranı planlayıcıları uygulayın.</li>
                 </ul>
 
                 <div class="code-example">
                     <div class="code-header">
                         <span class="code-lang"><i class="fab fa-python"></i> Python</span>
                         <button class="copy-btn" onclick="copyCode(this)">
-                            <i class="fas fa-copy"></i> Copy
+                            <i class="fas fa-copy"></i> Kopyala
                         </button>
                     </div>
                     <pre><code>import torch
 import torch.optim as optim
 
-# Set moderate learning rate
+# Orta düzey öğrenme oranı belirle
 optimizer = optim.SGD(model.parameters(), lr=0.01)
 
-# Use learning rate scheduler
+# Öğrenme oranı planlayıcısı kullan
 scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=30, gamma=0.1)</code></pre>
                 </div>
 
-                <h3><i class="fas fa-balance-scale"></i> Data Standardization</h3>
-                <p>Standardizing input features to have zero mean and unit variance speeds up training and improves accuracy by preventing issues due to varying feature scales.</p>
+                <h3><i class="fas fa-balance-scale"></i> Veri Standardizasyonu</h3>
+                <p>Giriş özelliklerini sıfır ortalama ve birim varyansa sahip olacak şekilde standardize etmek, değişen özellik ölçekleri nedeniyle oluşan sorunları önleyerek eğitimi hızlandırır ve doğruluğu artırır.</p>
                 
                 <ul>
-                    <li><strong>Scale Features:</strong> Use PyTorch's StandardScaler or manually standardize features to ensure each feature contributes equally to the model, helping the optimizer converge more effectively.</li>
-                    <li><strong>Normalize Output (if necessary):</strong> If the output is also on a large scale, normalizing it may further improve model training and stability.</li>
+                    <li><strong>Özellikleri Ölçeklendirin:</strong> Her özelliğin eşit katkıda bulunmasını sağlamak için PyTorch'un StandardScaler'ını kullanın veya özellikleri manuel olarak standardize edin, bu da optimize edicinin daha etkili bir şekilde yakınsamasına yardımcı olur.</li>
+                    <li><strong>Çıktıyı Normalleştirin (gerekirse):</strong> Çıktı da büyük ölçekteyse, onu normalleştirmek model eğitimini ve kararlılığını daha da iyileştirebilir.</li>
                 </ul>
 
                 <div class="code-example">
                     <div class="code-header">
                         <span class="code-lang"><i class="fab fa-python"></i> Python</span>
                         <button class="copy-btn" onclick="copyCode(this)">
-                            <i class="fas fa-copy"></i> Copy
+                            <i class="fas fa-copy"></i> Kopyala
                         </button>
                     </div>
                     <pre><code>from sklearn.preprocessing import StandardScaler
 
-# Standardize features
+# Özellikleri standardize et
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X.numpy())
 X_tensor = torch.tensor(X_scaled, dtype=torch.float32)</code></pre>
                 </div>
 
-                <h3><i class="fas fa-check-double"></i> Implement Validation Sets</h3>
-                <p>Validation sets are essential for monitoring the model's performance and detecting overfitting.</p>
+                <h3><i class="fas fa-check-double"></i> Doğrulama Setleri Uygulama</h3>
+                <p>Doğrulama setleri, modelin performansını izlemek ve aşırı öğrenmeyi tespit etmek için gereklidir.</p>
                 
                 <ul>
-                    <li><strong>Train-Validation Split:</strong> Use a portion of the dataset as validation data, evaluating model performance on this set periodically during training.</li>
-                    <li><strong>Early Stopping:</strong> Implement early stopping based on validation loss to halt training when the model stops improving, which helps prevent overfitting.</li>
+                    <li><strong>Eğitim-Doğrulama Ayrımı:</strong> Veri setinin bir kısmını doğrulama verisi olarak kullanın, eğitim sırasında bu set üzerinde model performansını periyodik olarak değerlendirin.</li>
+                    <li><strong>Erken Durdurma:</strong> Aşırı öğrenmeyi önlemeye yardımcı olan, model gelişmeyi durdurduğunda eğitimi durdurmak için doğrulama kaybına dayalı erken durdurma uygulayın.</li>
                 </ul>
 
                 <div class="highlight-box">
-                    <strong><i class="fas fa-lightbulb"></i> Pro Tip:</strong> Typically use 80% for training and 20% for validation. Monitor both training and validation loss to detect overfitting early.
+                    <strong><i class="fas fa-lightbulb"></i> Pro İpucu:</strong> Genellikle eğitim için %80, doğrulama için %20 kullanın. Aşırı öğrenmeyi erken tespit etmek için hem eğitim hem de doğrulama kaybını izleyin.
                 </div>
 
-                <h3><i class="fas fa-cut"></i> Gradient Clipping for Stability</h3>
-                <p>In datasets with high variance, gradients can sometimes grow too large, leading to instability.</p>
+                <h3><i class="fas fa-cut"></i> Kararlılık için Gradyan Kırpma</h3>
+                <p>Yüksek varyanslı veri setlerinde, gradyanlar bazen çok büyüyebilir ve kararsızlığa yol açabilir.</p>
                 
                 <ul>
-                    <li><strong>Clip Gradients:</strong> Apply gradient clipping to limit the magnitude of gradients. PyTorch's <code>torch.nn.utils.clip_grad_norm_</code> helps ensure gradients do not exceed a set threshold.</li>
-                    <li><strong>Avoiding Exploding Gradients:</strong> Gradient clipping prevents exploding gradients, which is particularly useful in models with larger datasets or complex feature interactions.</li>
+                    <li><strong>Gradyanları Kırpın:</strong> Gradyanların büyüklüğünü sınırlamak için gradyan kırpma uygulayın. PyTorch'un <code>torch.nn.utils.clip_grad_norm_</code> fonksiyonu gradyanların belirlenen eşiği aşmamasını sağlamaya yardımcı olur.</li>
+                    <li><strong>Patlayan Gradyanlardan Kaçınma:</strong> Gradyan kırpma, özellikle daha büyük veri setleri veya karmaşık özellik etkileşimleri olan modellerde yararlı olan patlayan gradyanları önler.</li>
                 </ul>
 
                 <div class="code-example">
                     <div class="code-header">
                         <span class="code-lang"><i class="fab fa-python"></i> Python</span>
                         <button class="copy-btn" onclick="copyCode(this)">
-                            <i class="fas fa-copy"></i> Copy
+                            <i class="fas fa-copy"></i> Kopyala
                         </button>
                     </div>
                     <pre><code>import torch.nn.utils as utils
 
-# Clip gradients to prevent exploding gradients
+# Patlayan gradyanları önlemek için gradyanları kırp
 loss.backward()
 utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
 optimizer.step()</code></pre>
                 </div>
 
-                <h3><i class="fas fa-chart-area"></i> Monitor Loss Function</h3>
-                <p>Monitoring the loss function during training helps diagnose issues and make necessary adjustments.</p>
+                <h3><i class="fas fa-chart-area"></i> Kayıp Fonksiyonunu İzleme</h3>
+                <p>Eğitim sırasında kayıp fonksiyonunu izlemek, sorunları teşhis etmeye ve gerekli ayarlamaları yapmaya yardımcı olur.</p>
                 
                 <ul>
-                    <li><strong>Loss Reduction Monitoring:</strong> Observe whether the loss steadily decreases during training. If the loss plateaus or increases, consider adjusting the learning rate or re-evaluating data preparation.</li>
-                    <li><strong>Track with Visualization Tools:</strong> Use visualization tools such as TensorBoard to track training and validation loss over epochs for a clear view of model performance.</li>
+                    <li><strong>Kayıp Azalması İzleme:</strong> Eğitim sırasında kaybın istikrarlı bir şekilde azalıp azalmadığını gözlemleyin. Kayıp sabit kalırsa veya artarsa, öğrenme oranını ayarlamayı veya veri hazırlığını yeniden değerlendirmeyi düşünün.</li>
+                    <li><strong>Görselleştirme Araçlarıyla Takip Edin:</strong> Model performansının net bir görünümü için epoch'lar boyunca eğitim ve doğrulama kaybını izlemek için TensorBoard gibi görselleştirme araçlarını kullanın.</li>
                 </ul>
 
                 <div class="interactive-demo">
-                    <h4><i class="fas fa-play"></i> Interactive Training Demo</h4>
-                    <p>Click the button to simulate a training process and see how loss decreases over epochs.</p>
+                    <h4><i class="fas fa-play"></i> Etkileşimli Eğitim Demosu</h4>
+                    <p>Bir eğitim sürecini simüle etmek ve kaybın epoch'lar boyunca nasıl azaldığını görmek için butona tıklayın.</p>
                     <button class="demo-button" onclick="runTrainingDemo()">
-                        <i class="fas fa-rocket"></i> Start Training Simulation
+                        <i class="fas fa-rocket"></i> Eğitim Simülasyonunu Başlat
                     </button>
                     <div id="demo-result" class="result-display" style="display: none;"></div>
                 </div>
 
                 <div class="highlight-box warning">
-                    <strong><i class="fas fa-exclamation-triangle"></i> Warning:</strong> Always monitor both training and validation loss. If training loss decreases but validation loss increases, you're likely overfitting!
+                    <strong><i class="fas fa-exclamation-triangle"></i> Uyarı:</strong> Her zaman hem eğitim hem de doğrulama kaybını izleyin. Eğitim kaybı azalırken doğrulama kaybı artıyorsa, büyük olasılıkla aşırı öğreniyorsunuz!
                 </div>
 
-                <h2><i class="fas fa-trophy"></i> Conclusion</h2>
-                <p>Applying these best practices can improve the training process and performance of linear regression models in PyTorch. By carefully managing learning rates, standardizing data, using validation, and monitoring the training process, you'll set a strong foundation for building more complex machine-learning models in PyTorch.</p>
+                <h2><i class="fas fa-trophy"></i> Sonuç</h2>
+                <p>Bu en iyi uygulamaları uygulamak, PyTorch'ta lineer regresyon modellerinin eğitim sürecini ve performansını iyileştirebilir. Öğrenme oranlarını dikkatli bir şekilde yöneterek, verileri standardize ederek, doğrulama kullanarak ve eğitim sürecini izleyerek, PyTorch'ta daha karmaşık makine öğrenmesi modelleri oluşturmak için güçlü bir temel oluşturacaksınız.</p>
 
                 <div class="highlight-box">
-                    <strong><i class="fas fa-rocket"></i> Next Steps:</strong> Once you master these linear regression fundamentals, you'll be ready to tackle more complex architectures like neural networks, CNNs, and RNNs with confidence!
-                </div>
-            </article>
-        </div>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Latest Posts</h4>
-                    <a href="#">Advanced PyTorch Techniques</a>
-                    <a href="#">Deep Learning Optimization</a>
-                    <a href="#">Neural Network Architectures</a>
-                    <a href="#">Computer Vision with CNN</a>
-                </div>
-                <div class="footer-section">
-                    <h4>Categories</h4>
-                    <a href="#">Machine Learning</a>
-                    <a href="#">Deep Learning</a>
-                    <a href="#">Data Science</a>
-                    <a href="#">AI Research</a>
-                </div>
-                <div class="footer-section">
-                    <h4>Resources</h4>
-                    <a href="#">PyTorch Documentation</a>
-                    <a href="#">Code Examples</a>
-                    <a href="#">Datasets</a>
-                    <a href="#">Community Forum</a>
-                </div>
-            </div>
-            
-            <div class="social-links">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-            
-            <p style="margin-top: 2rem; color: var(--text-secondary);">
-                &copy; 2024 TechML Blog. All rights reserved. | Made with <i class="fas fa-heart" style="color: #e25555;"></i> for AI enthusiasts
-            </p>
-        </div>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
-    
-    <script>
-        function copyCode(button) {
-            const codeBlock = button.closest('.code-example').querySelector('code');
-            const text = codeBlock.textContent;
-            
-            navigator.clipboard.writeText(text).then(() => {
-                const originalText = button.innerHTML;
-                button.innerHTML = '<i class="fas fa-check"></i> Copied!';
-                button.style.background = '#68d391';
-                
-                setTimeout(() => {
-                    button.innerHTML = originalText;
-                    button.style.background = '';
-                }, 2000);
-            });
-        }
-
-        function runTrainingDemo() {
-            const resultDiv = document.getElementById('demo-result');
-            resultDiv.style.display = 'block';
-            resultDiv.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Training in progress...';
-            
-            setTimeout(() => {
-                const epochs = 10;
-                const losses = [];
-                let currentLoss = 1530.85;
-                
-                for (let i = 0; i < epochs; i++) {
-                    currentLoss = currentLoss * 0.7 + Math.random() * 0.1;
-                    losses.push(currentLoss.toFixed(4));
-                }
-                
-                resultDiv.innerHTML = `
-                    <div style="text-align: left;">
-                        <strong>Training Complete! 🎉</strong><br>
-                        Initial Loss: 1530.8500<br>
-                        Final Loss: ${losses[losses.length-1]}<br>
-                        Loss Reduction: ${(((1530.85 - parseFloat(losses[losses.length-1])) / 1530.85) * 100).toFixed(2)}%<br>
-                        <em>Loss progression: [${losses.slice(0, 5).join(', ')}, ...]</em>
-                    </div>
-                `;
-            }, 3000);
-        }
-
-        // Add smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Add reading progress indicator
-        function addProgressBar() {
-            const progressBar = document.createElement('div');
-            progressBar.style.cssText = `
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 0%;
-                height: 3px;
-                background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
-                z-index: 1000;
-                transition: width 0.3s ease;
-            `;
-            document.body.appendChild(progressBar);
-
-            window.addEventListener('scroll', ()
+                    <strong><i class="fas fa-rocket"></i> Sonraki Adımlar:</strong> Bu lineer regresyon temellerinde ust
